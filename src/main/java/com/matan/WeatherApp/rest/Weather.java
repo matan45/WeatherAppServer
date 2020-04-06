@@ -14,6 +14,7 @@ import com.matan.WeatherApp.services.CoronaVirusService;
 import com.matan.WeatherApp.services.WeatherService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("api")
 public class Weather {
 
