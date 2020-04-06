@@ -14,7 +14,7 @@ import com.matan.WeatherApp.services.CoronaVirusService;
 import com.matan.WeatherApp.services.WeatherService;
 
 @RestController
-@CrossOrigin("https://matan-weatherapp.herokuapp.com")
+@CrossOrigin("https://matan-weatherapp.herokuapp.com:8080")
 @RequestMapping("api")
 public class Weather {
 
